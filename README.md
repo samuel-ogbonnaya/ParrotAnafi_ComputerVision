@@ -13,4 +13,12 @@ CV project utilising the Parrot Anafi drone for automatically detecting and trac
 - Hardware
   - [Google Coral Edge TPU USB Accelerator](https://coral.ai/products/accelerator/)
   - [Parrot Anafi](https://www.parrot.com/uk/drones/anafi)
+
+## TODO
+- [X] Access video from Anafi drone via SDK 
+- [X] Add capability to always show video stream regardless of detection status
+- [X] COllect data, train TFlite Detection model and evaluate performance
+- [ ] Implement Deep Sort Tracking Class to be used in conjunction with the TFLite models
+- [ ] Test additional detection models
+- [ ] Implement and test drone controller class e.g (take-off, flight, landing etc) using Olympe
   
