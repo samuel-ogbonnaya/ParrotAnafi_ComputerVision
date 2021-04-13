@@ -18,7 +18,7 @@ CV project utilising the Parrot Anafi drone for automatically detecting and trac
 - [X] Access video from Anafi drone via SDK 
 - [X] Add capability to always show video stream regardless of detection status
 - [X] COllect data, train TFlite Detection model and evaluate performance
-- [ ] Implement Deep Sort Tracking Class to be used in conjunction with the TFLite models
-- [ ] Test additional detection models
+- [X] Implement Deep Sort Tracking Class to be used in conjunction with the TFLite models
+- [X] Test additional detection models
 - [ ] Implement and test drone controller class e.g (take-off, flight, landing etc) using Olympe
   
